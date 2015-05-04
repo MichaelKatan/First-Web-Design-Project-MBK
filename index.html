@@ -1,111 +1,205 @@
-<!doctype html5>
-<meta charset="UTF-8">
-
 <html>
-	<head>
-    
-		<title>Wob Page!</title>
-		<link rel="stylesheet" type="text/css" href="css/mk1.css">
-	</head>
-	<body>
-    <a href="#top"></a>
-		<div class ="wrap">
-			<div class="left">		<!-- This div has the left sidebar. except the bottom part.-->		
-				<p>
-					This is a website I frequently use to help solve computer problems:
-					<a href="http://google.com" title="computer IT">computer IT</a> 
-					<br><br>
-					Here is the link to my CSS page. <a href="css/mk1.css" title="Michael's CSS page">CSS page</a>
-					<br><br>
-					And finally, here is cat tax.(Page 2)<br> <a class="rollover" href="#coco" title="Cat Tax"></a><!-- this line is not goo for mobile and small screens. i recomend using JS to repace it later. -->
-          <br>
-          <a href="#page3">Page 3</a>
-          <br>
-          <a href="#page4">Page 4</a>
-				</p>
+<head>
+	<title>First Wob Design</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Knewave|Montserrat|Audiowide|Kaushan+Script' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<nav class="content">
+    <h2 id="title">Title</h2> 
+    <div id="nav-links">
+  		<ul id="nav-links-list">
+  			<li>Home</li>
+  			<li>About</li>
+  			<li>Portfolio</li>
+  			<li>Blog</li>
+  			<li>Contact</li>
+  		</ul>
+    </div>
+	</nav>
+
+
+
+
+	<div class="main-header">
+    <img id="main-image" src="images/space.png" alt="under image">
+		<img id="main-image"src="images/Shuttle.png" alt="main image thing">
+    <p id="welcome">Welcome to Space</p>
+	</div>
+
+
+
+
+
+	<section id="blueSection">
+		<div class="content" id="info-grid">
+			<div class="info-text leftmost">
+        <div class="icons">
+				  <img src="images/phone.png" alt="">
+        </div>
+        <p class="topBar">Head Info</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis doloremque aut, quis dolores facilis reiciendis, </p>
 			</div>
-            <div class="leftBot">   <!-- This div has the left sidebar bottom part.-->  
-                <p>
-                    <a href="#top">Top</a>
-                </p>
-            </div>
-			<div class ="center">
-				<h1>My name is Michael and this is my webpage.</h1>
-				<h2><img class="inline" src="images/uArrow.png" alt="Up Arrow"> That sentance was size h1. These two are size h2.</h2>
-				<h3>This  line is an example of size h3. The next line will be h4.</h3>
-				<h4>You have probably noticed that as the h value increases the text size gets smaller.</h4>
-				<h5>Of course the h system can do a lot more then just change the size of the text.</h5>
-				<h6>With CSS you can make each h use a different font, color, size, postioning or just about anything you want.</h6>
+			<div class="info-text">
+				<div class="icons">
+          <img src="images/chat.png" alt="">
+        </div>  
+        <p class="topBar">Head Info</p>
+				<p>Nam sequi unde, architecto ipsa beatae dolore recusandae velit minima temporibus, consequuntur enim quaerat rerum doloremque, </p>
 			</div>
-			<div class="right">
-				<p>
-          This is probably a more advanced webpage than was required.<br>But I dont care for the following reasons:
-        </p>
-    				<ul>
-    					<li>This is the third Creighton class that has made me make one of these.</li>
-    					<li>The first time I made one of these was a decade ago, not even exaggerating. It was literally 2005.</li>
-    					<li>Besides, doing all this helped me remember more of what i needed to know to make a good webpage.</li>
-    					<li>Also this has given me a chance to make a new CSS from scratch that I will likely use on many things.</li>
-    				</ul>
+			<div class="info-text rightmost">
+				<div class="icons">
+          <img src="images/key.png" alt="">
+        </div>
+        <p class="topBar">Head Info</p>
+				<p>Ratione repellat fuga ullam voluptates, est suscipit unde, illum dicta nisi, fugiat accusamus mollitia tempora placeat assumenda? </p>
+			</div>
+			<div class="info-text leftmost">
+				<div class="icons">
+          <img src="images/phone.png" alt="">
+        </div>
+        <p class="topBar">Head Info</p>
+				<p>Adipisci sequi quas vero libero pariatur quae deserunt, accusantium accusamus voluptas temporibus impedit </p>
+			</div>
+			<div class="info-text">
+				<div class="icons">
+          <img src="images/chat.png" alt="">
+        </div>
+        <p class="topBar">Head Info</p>
+				<p>Vitae autem temporibus ipsum neque aperiam obcaecati libero officia adipisci hic, possimus numquam optio facilis .</p>
+			</div>
+			<div class="info-text rightmost">
+				<div class="icons">
+          <img src="images/key.png" alt="">
+        </div>
+        <p class="topBar">Head Info</p>
+				<p>Distinctio eligendi obcaecati reiciendis deleniti iste tempora quam culpa, placeat consequatur repellat.</p>
 			</div>
 		</div>
-        <div class="wrap">
-            <div class="center" >
-	            <a id="coco"></a>
-	            <h1>This is my cat Cocomo.</h1>
-	            <div id="picCo">
-	            	<img class="medium" src="images/coco1.jpg" alt="cocomo">
-	            </div>
-	            <div id= "picText">
-	             	As you can see, Cocomo is a very happy cat.<br>His forelegs are missing hair because he went to the vet recently.<br>He can be an odd cat sometimes, but is very loving.
-	             </div> 
+	</section>
 
-	            
-            </div>
-            
-        </div>
-        <div class="wrap">
-            <div class="center">
-                <a id="page3"></a>
-                <h1>This is the third page.</h1>
-                <p>Im not really sure what to talk about for this page. So i thought i would explain some of my decisions. 
-                	<br> The intructions for this assignment called for 3 'different' html pages and i only made 1 page that contains 3 seperate sections that are treated as pages.<br>This is refered to as a single-page website. I did this for a number of reasons.
-                </p>
-                <ul>
-                 	<li>Primaraly because this style has become more popular recently and I beleive it will continue to become more common so doing this project has helped me learn about it.</li>
-                 	<li>Second, this style is interesting and more chalenging, which will help me get the most out of this assignment and class.</li>
-                </ul>  
-                <p>
-                 	While this page is largely lacking in unique CSS and content, I beleive that the 3 pages as a whole as well as the sidebars   have more then enough work and unique CSS for the project. 
-              	</p>
-            </div>
-        </div><!-- end of page 3 -->
-        <div class="wrap"><!-- start of page 4 -->
-          <div class="center">
-            <a id="page4"></a>
-            <h1>Lorem Ipsum</h1>
-            <div class="noOverflow">
-              <img src="images/loremIpsum.jpg" alt="Lorem Picture.">
-            </div>
-            <div class="wrap">
-              <div class="threeDiv">
-                <h3>Ipsum</h3>
-                <p> Lorem ipsum Sit esse pariatur quis enim deserunt Ut fugiat magna laboris esse aliquip amet nostrud proident ad veniam exercitation minim consectetur dolore elit aute Duis sit id in ex occaecat irure et occaecat ut Excepteur eiusmod.</p>
-              </div>
-              <div class="threeDiv">
-                <h3>Tempor</h3>
-                <p> Lorem ipsum Duis laboris consequat incididunt quis velit incididunt irure aliquip enim ut laborum incididunt officia fugiat dolore nisi Ut in qui labore eu dolor minim veniam dolor. </p>
-              </div>
-              <div class="threeDiv">
-                <h3>Lorum</h3>
-                <p> Lorem ipsum Irure minim laborum elit tempor voluptate culpa dolore laboris deserunt aliquip officia et pariatur est laborum cupidatat proident Excepteur ut ad sit in consectetur cillum laboris fugiat ea eu Excepteur culpa laboris sint consectetur eu esse nulla reprehenderit nisi. </p>
-              </div> 
-            </div>
+
+
+	<section id="whiteSection">
+    <div class="content">
+  		<div id="left-head">
+        <div class="headSection">
+          <p class="topBar">Two-Line Header</p>
+          <p class="headerText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris. </p>
+          <div class="buttonDiv">
+            <button type="">button</button>
           </div>
-        </div><!-- end of page 4 -->
- 		
-	</body>
+        </div>
+        <div class="headSection">
+          <p class="topBar">Two-Line Header</p>
+          <p class="headerText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco. </p>
+          <div class="buttonDiv">
+            <button type="">button</button>
+          </div>
+        </div>
+      </div>
+
+  		<div id="image-grid">
+  			<div class="components">
+  				<img src="images/earth.png" alt="">
+  				<p class="imTitle"></p>
+  				<p class="imInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima assumenda, omnis dignissimos maxime unde recusandae, nesciunt </p>
+  			</div>
+  			<div class="components middle">
+  				<img src="images/moon.png" alt="">
+  				<p class="imTitle"></p>
+  				<p class="imInfo">Dignissimos labore pariatur laborum eaque rerum aperiam sint laboriosam repellat minima fugit vero, nemo placeat aspernatur tempora </p>
+  			</div>
+  			<div class="components">
+  				<img src="images/earth.png" alt="">
+  				<p class="imTitle"></p>
+  				<p class="imInfo">Quasi officiis ipsam necessitatibus qui in fuga asperiores, nisi, ab nostrum consequuntur dicta perspiciatis nihil quisquam dolores veniam </p>
+  			</div>
+  			<div class="components">
+  				<img src="images/mars.png" alt="">
+  				<p class="imTitle"></p>
+  				<p class="imInfo">Ab aliquid suscipit ducimus explicabo, cum itaque temporibus in maiores voluptatum quas facilis cupiditate optio aut error. </p>
+  			</div>
+  			<div class="components middle">
+  				<img src="images/death.png" alt="">
+  				<p class="imTitle"></p>
+  				<p class="imInfo">Dolore incidunt perspiciatis aspernatur iste esse, iusto necessitatibus. Quas blanditiis explicabo qui dolorum vel doloremque, non </p>
+  			</div>
+  			<div class="components">
+  				<img src="images/mars.png" alt="">
+  				<p class="imTitle"></p>
+  				<p class="imInfo">Vero laudantium, incidunt in blanditiis ratione accusamus! Repellat nulla aperiam quod quo. Possimus voluptates nesciunt fugit animi quibusdam </p>
+  			</div>
+  		</div>
+    </div>
+	</section>
+
+
+
+
+
+
+	<section id="greySection">
+		<div class="content" id="logos">
+			<div class="logoDiv">
+				<p id="logo1">Logo</p>
+				<p class="logo-text">Company Information</p>
+			</div>
+			<div class="logoDiv">
+        <p id="logo2">Logo</p>
+				<p class="logo-text">Company Information</p>
+			</div>
+			<div class="logoDiv">
+        <p id="logo3">Logo</p>
+				<p class="logo-text">Company Information</p>
+			</div>
+			<div class="logoDiv">
+        <p id="logo4">Logo</p>
+				<p class="logo-text">Company Information</p>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+	<section id="RedSection">
+  	<div class="content">
+    	<p id="redHead">Like This Webpage?</p>
+  		<p id="redInfo">Check out the info for this page and more.</p>
+  		<button id="redButton">See More</button>
+    </div>
+  </section>
+
+
+
+
+
+
+	<footer class="content">
+		<div id="cc-info">
+			<p id="byline">Theme by Michael Katan</p>
+			<p id="cclicense">Pictures by various artists <br> All used under creative commons license</p>
+			<p id="photoCredits">Picture Credits: Nasa, David DeHetre, J.Gab&aacute;s Esteban, Pault T., T. Kiya. <br> All from Flicker.com with modifications and cropping.</p>
+		</div>
+		<div class="links">
+			<ul id="footerLinks">
+				<li>Home</li>
+				<li>Portfolio</li>
+				<li>About</li>
+				<li>Contact</li>
+				<li>Blog</li>
+			</ul>
+		</div>
+	</footer>
+
+</body>
 </html>
-
-
 
